@@ -1,9 +1,3 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-} */
-
 body{
     margin: 0;
     display: flex;
@@ -42,6 +36,9 @@ h2{
     align-items: center;
     font-size: 50px;
     justify-content: center;
+    border: 3px solid burlywood;
+    border-radius: 10px ;
+    
 }
 .clock .text{
     height: 30px;
@@ -52,8 +49,7 @@ h2{
 
 }
 .clock .ampm{
-    bottom: 33.7vh;
-    /* bottom: 0; */
+    bottom: 32.9vh;
     position: absolute;
     width: 60px;
     font-size: 20px;
