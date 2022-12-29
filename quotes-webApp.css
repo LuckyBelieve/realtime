@@ -1,0 +1,64 @@
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  */
+body{
+    height: 100vh;
+    background-image: url(./images/gami.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* bottom: 50%; */
+    /* position: absolute; */
+    width: 100%;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.header{
+    color: rgb(29, 206, 41);
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.main-content{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: aquamarine;
+    border-radius: 10px;    
+}.quote{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 5px;
+}
+.person{
+    text-transform: capitalize;
+    color: blue;
+    font-size: 2rem;
+}
+.new-quote{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(20, 225, 157);
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 10px;
+}
+
+
